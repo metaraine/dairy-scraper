@@ -1,0 +1,41 @@
+{
+  "name": "dairy-scraper",
+  "version": "0.0.0",
+  "description": "Scrape event times from tickets.thedairy.org",
+  "license": "ISC",
+  "repository": "metaraine/dairy-scraper",
+  "author": {
+    "name": "Raine Lourie",
+    "email": "raine@collegecoding.com",
+    "url": "https://github.com/metaraine"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "browser": "browserify -s $npm_package_name -o browser.js ."
+  },
+  "dependencies": {
+    "cheerio": "^0.17",
+    "cint": "^6.2.0",
+    "json5": "^0.2.0",
+    "q-io": "^1.11.3",
+    "underscore": "^1.6.0"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "coffee-script": "~1",
+    "insist": "*",
+    "browserify": "^4",
+    "gulp": "~3",
+    "gulp-util": "~2",
+    "gulp-coffee": "~1",
+    "gulp-jshint": "~1",
+    "gulp-rename": "~1",
+    "gulp-clean": "~0.2"
+  }
+}
