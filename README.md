@@ -9,7 +9,7 @@ Command Line:
 node dairy.js "https://tickets.thedairy.org/online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=0D0E652A-B775-4F8B-970E-794943749EAF"
 ```
 
-Module:
+Module (needs some work to be really usable):
 ```js
 var dairy = require('./dairy.js')
 dairy.scrapeHttp('https://tickets.thedairy.org/online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=0D0E652A-B775-4F8B-970E-794943749EAF')
